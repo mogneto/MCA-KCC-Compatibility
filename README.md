@@ -33,10 +33,12 @@ The packaged mod is generated in `build/libs`.
 .\gradlew.bat runClient
 .\gradlew.bat runServer
 ```
+## Mod Template
+Template by igentuman. Check [here](https://github.com/igentuman/MC-Mod-Template).
 
 ## Author
 
-Created by **Mogneto**.
+Created by **Mogneto** (but it was mainly coded by AI).
 
 ## License
 
