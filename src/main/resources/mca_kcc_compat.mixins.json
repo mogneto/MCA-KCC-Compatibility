@@ -1,0 +1,20 @@
+{
+  "required": true,
+  "package": "igentuman.mcakcccompat.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "common.McaKccAiStateDiagnosticMixin",
+    "common.McaKccTargetBridgeMixin"
+  ],
+  "client": [
+    "client.VillagerCombatAnimationMixin",
+    "client.McaPlayerCombatAnimationMixin",
+    "client.PlayerModelAnimationLibraryBridgeMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}
